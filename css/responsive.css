@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+    .container {
+        width: 740px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .lessons .col {
+        width: 100%;
+    }
+
+    .container {
+        width: 320px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+}
